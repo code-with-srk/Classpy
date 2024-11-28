@@ -1,18 +1,14 @@
-class firstclass :
-
+class firstclass:
     val1 = 0
     val2 = 0
 
-print('firstclass',firstclass)
-print('firstclass.val1',firstclass.val1)
-print('firstclass.val2',firstclass.val2)
-    
 
+    def __init__(self):
+        print('this is constructor')
+        
 
-    val1 = 0
-    val2 = 0
+f1 = firstclass()
 
-print('firstclass',firstclass)
-print('firstclass.val1',firstclass.val1)
-print('firstclass.val2',firstclass.val2)
-    
+print('f1.val1 = ', f1.val1)
+print('f1.val2 = ', f1.val2)
+                  
